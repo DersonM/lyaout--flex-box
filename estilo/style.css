@@ -5,11 +5,36 @@ body, ul, li, p {
     font-size: 1.2rem;
     font-family: arial;
 }
+:root{
+    --branco-white: #fff;
+    --bege-beige: #fffaeb;
+    --marfin-ivory: #f0f0d8;
+    --cinza-grey: #cfcfcf;
+    --cinzaEscuro-darkGrey: #706f6b;
+    --azul-blue: #434d53;
 
+}
 a {
     text-decoration: none;
+    color: var(--branco-white);
 }
 .header {
+    background: var(--azul-blue);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.menu{
+    display: flex;
+} 
+.menu li {
+    margin-left: 10px ;
+}
+.menu li a {
+    display: block;
+    padding: 10px;
+
 }
