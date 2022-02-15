@@ -48,4 +48,17 @@ img{
 /* css flexbox 1*/ 
 .flex {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* css GRIN 1 */
+
+.grid1 {
+    
 }
