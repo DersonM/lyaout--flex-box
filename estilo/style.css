@@ -18,6 +18,14 @@ a {
     text-decoration: none;
     color: var(--branco-white);
 }
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
 .header {
     background: var(--azul-blue);
     display: flex;
@@ -36,5 +44,8 @@ a {
 .menu li a {
     display: block;
     padding: 10px;
-
+}
+/* css flexbox 1*/ 
+.flex {
+    display: flex;
 }
